@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const postcss = require('rollup-plugin-postcss');
 const rollup = require('rollup');
 const path = require('path');
 const resolve = require('@rollup/plugin-node-resolve').default;
@@ -13,6 +14,9 @@ const inputOptions = {
 	input: inputPath,
 	external: ['react'],
 	plugins: [
+		postcss({
+			modules: true,
+		}),
 		resolve(),
 		babel({
 			presets: ['@babel/preset-env', '@babel/preset-react'],
