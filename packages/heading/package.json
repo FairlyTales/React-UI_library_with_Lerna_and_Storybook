@@ -1,6 +1,6 @@
 {
   "name": "heading",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Heading component",
   "keywords": [],
   "author": "khnychkin_kirill <khnychkin_kirill@tutanota.com>",
@@ -28,7 +28,7 @@
     "url": "https://github.com/FairlyTales/React-UI_library_with_Lerna_and_Storybook/issues"
   },
   "devDependencies": {
-    "builder": "^0.0.0",
+    "builder": "^1.0.0",
     "react": "^18.0.0"
   },
   "dependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "main",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "khnychkin_kirill <khnychkin_kirill@tutanota.com>",
@@ -28,10 +28,10 @@
     "url": "https://github.com/FairlyTales/React-UI_library_with_Lerna_and_Storybook/issues"
   },
   "dependencies": {
-    "button": "^0.0.0",
-    "heading": "^0.0.0"
+    "button": "^1.0.0",
+    "heading": "^1.0.0"
   },
   "devDependencies": {
-    "builder": "^0.0.0"
+    "builder": "^1.0.0"
   }
 }
