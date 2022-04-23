@@ -1,4 +1,4 @@
-import {Button} from "button";
-import {Heading} from "heading";
+import {Button} from "button/lib/Button";
+import {Heading} from "heading/lib/Heading";
 
 export {Button, Heading};
