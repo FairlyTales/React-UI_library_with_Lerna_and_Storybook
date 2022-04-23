@@ -9,6 +9,8 @@ module.exports = {
 	],
 	"framework": "@storybook/react",
 	webpackFinal: async (config) => {
+		config.resolve.mainFields = ['src', 'module', 'main'];
+
 		config.module.rules = config.module.rules.filter((f) => f.test.toString() !== '/\\.css$/');
 
 		config.module.rules.push({

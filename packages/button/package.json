@@ -6,13 +6,16 @@
   "author": "khnychkin_kirill <khnychkin_kirill@tutanota.com>",
   "homepage": "https://github.com/FairlyTales/React-UI_library_with_Lerna_and_Storybook/tree/main/packages/button#readme",
   "license": "ISC",
-  "main": "lib/Button.jsx",
+  "main": "dist/button.cjs.js",
+  "module": "dist/button.esm.js",
+  "src": "lib/button.jsx",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "dist"
   ],
   "repository": {
     "type": "git",
