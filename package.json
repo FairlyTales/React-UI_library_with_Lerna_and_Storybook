@@ -1,0 +1,22 @@
+{
+  "name": "react-ui-monorepo",
+  "version": "1.0.0",
+  "description": "Creating a monorepo React-UI library using <a href=\"https://github.com/lerna/lerna\">Lerna</a>, <a href=\"https://github.com/css-modules/css-modules\">CSS Modules</a> and <a href=\"https://storybook.js.org/\">Storybook</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FairlyTales/React-UI_library_with_Lerna_and_Storybook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FairlyTales/React-UI_library_with_Lerna_and_Storybook/issues"
+  },
+  "homepage": "https://github.com/FairlyTales/React-UI_library_with_Lerna_and_Storybook#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
