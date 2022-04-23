@@ -1,7 +1,4 @@
-'use strict';
+import {Button} from "button";
+import {Heading} from "heading";
 
-module.exports = main;
-
-function main() {
-    // TODO
-}
+export {Button, Heading};
